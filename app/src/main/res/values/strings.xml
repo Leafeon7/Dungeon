@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Monstrous corridor of destruction</string>
+    <string name="Gracz">Hero: </string>
+    <string name="Potwor">Monster: </string>
+    <string name="stoi">Hero is standing next to monster.</string>
+    <string name="nie_stoi">Hero is not standing next to monster.</string>
+    <string name="atak">atack</string>
+    <string name="obrona">defense</string>
+    <string name="zdr">health</string>
+    <string name="regen">regeneration</string>
+    <string name="zloto"> gold </string>
+    <string name="koszt">The cost of the next purchase is:</string>
+    <string name="powierze">Hero hit the air. It is better to make a step toward monster to hit it. </string>
+    <string name="martwy">DEAD.</string>
+
+
+    <string name="przyatak"> Atack </string>
+    <string name="przykrok"> Step </string>
+    <string name="przyzakup"> Buy </string>
+    <string name="przyodpoczynek"> Rest </string>
+</resources>

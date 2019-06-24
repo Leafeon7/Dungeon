@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/statystyki"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/statystyki3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/statystyki" />
+
+    <TextView
+        android:id="@+id/statystyki2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/statystyki3" />
+
+    <TextView
+        android:id="@+id/statystyki4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/statystyki2" />
+
+    <Button
+        android:id="@+id/atak"
+        android:layout_width="192dp"
+        android:layout_height="156dp"
+        android:text="Atak"
+        app:layout_constraintBottom_toTopOf="@+id/zakup"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/krok"
+        app:layout_constraintTop_toBottomOf="@+id/statystyki4" />
+
+    <Button
+        android:id="@+id/krok"
+        android:layout_width="192dp"
+        android:layout_height="156dp"
+        android:text="Krok"
+        app:layout_constraintBottom_toTopOf="@+id/odpoczynek"
+        app:layout_constraintLeft_toRightOf="@+id/atak"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/statystyki4" />
+
+    <Button
+        android:id="@+id/zakup"
+        android:layout_width="192dp"
+        android:layout_height="156dp"
+        android:text="zakup"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/odpoczynek"
+        app:layout_constraintTop_toBottomOf="@+id/atak" />
+
+    <Button
+        android:id="@+id/odpoczynek"
+        android:layout_width="192dp"
+        android:layout_height="156dp"
+        android:text="odpoczynek"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/zakup"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/krok" />
+
+</android.support.constraint.ConstraintLayout>

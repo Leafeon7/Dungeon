@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Potworny korytarz zniszczenia</string>
+    <string name="Gracz">Bohater: </string>
+    <string name="Potwor">Potwor: </string>
+    <string name="stoi">Bohater stoi przy potworze.</string>
+    <string name="nie_stoi">Bohater nie stoi przy potworze.</string>
+    <string name="atak"> atak </string>
+    <string name="obrona"> obrona </string>
+    <string name="zdr"> zdrowie </string>
+    <string name="regen"> regeneracja </string>
+    <string name="zloto"> zloto </string>
+    <string name="koszt">Koszt nastepnego zakupu, to: </string>
+    <string name="powierze">Bohater zaatakowal powietrze. Bohater musi podejsc do potwora, aby go zaatakowac."</string>
+    <string name="martwy">MARTWY."</string>
+
+
+    <string name="przyatak"> Atak </string>
+    <string name="przykrok"> Krok </string>
+    <string name="przyzakup"> Zakup </string>
+    <string name="przyodpoczynek"> Odpoczynek </string>
+
+</resources>
